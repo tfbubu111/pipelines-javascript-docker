@@ -10,7 +10,7 @@ resources:
 
 variables:
 
-  # Container registry service connection established during pipeline creation
+  # Container registry service connection established during pipeline creation, appID of SP
   dockerRegistryServiceConnection: 'f046aa9d-aada-4f3b-9088-b120ea9e9b33'
   imageRepository: 'tfbubupipelinesjavascriptdocker'
   containerRegistry: '2022acr.azurecr.io'
